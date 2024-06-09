@@ -1,9 +1,33 @@
-import Navbar from './components/Navbar'
+import { useState, useEffect } from 'react'
+import Navbar from './components/NavBar'
+import Dropdown from './components/Dropdown'
+import Hero from './components/Hero'
 
 const App = () => {
+  const [dropDownOpen, setdropDownOpen] = useState(false)
+
+  useEffect( () => {
+    function closeMenu() {
+      if (window.innerWidth > 800 && dropDownOpen) {
+        setdropDownOpen(false)
+      }
+    }
+    window.addEventListener('resize', closeMenu)
+
+    return () => {
+      window.removeEventListener('resize', closeMenu)
+    }
+  })
+
+  function toggle() {
+    setdropDownOpen(!dropDownOpen)
+  }
+  
   return (
     <>
-      <Navbar/>
+      <Navbar toggle={toggle}></Navbar>
+      <Dropdown toggle={toggle} dropDownOpen={dropDownOpen}></Dropdown>
+      <Hero></Hero>
     </>
     
   )

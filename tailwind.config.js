@@ -4,10 +4,95 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Roboto", "sans-serif"],
+        mono: ["Monaco"],
       },
       gridTemplateColumns: {
         "70/30": "70% 28%",
+      },
+      colors: {
+        forest: "#254336",
+        green: "#81A263",
+        clay: "#B7B597",
+        blob1: "#79390d",
+        blob2: "#ce7c2d",
+        blob3: "#efba61",
+        blob4: "#fbda57",
+      },
+      animation: {
+        slideIn1: "slideIn 1s ease-in-out forwards 0.1s",
+        slideIn2: "slideIn 1s ease-in-out forwards 0.25s",
+        slideIn3: "slideIn 1s ease-in-out forwards 0.4s",
+        slideIn4: "slideIn 1s ease-in-out forwards 0.55s",
+        slideIn5: "slideIn 1s ease-in-out forwards 0.7s",
+        slideIn6: "slideIn 1s ease-in-out forwards 1s",
+        slideIn7: "slideIn 1s ease-in-out forwards 2s",
+        slideIn8: "slideIn 1s ease-in-out forwards 3s",
+        blob: "blob 4s infinite",
+        blob2: "blob2 3s infinite",
+        blob3: "blob3 4s infinite",
+        blob4: "blob4 5s infinite",
+      },
+      keyframes: {
+        slideIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        blob: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(-30px, 30px) scale(1.4)",
+          },
+          "66%": {
+            transform: "translate(-20px, 30px) scale(0.9)",
+          },
+          "100%": {
+            transform: "tranlate(0px, 0px) scale(1)",
+          },
+        },
+        blob2: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(-20px, 30px) scale(1.2)",
+          },
+          "66%": {
+            transform: "translate(-20px, 20px) scale(0.9)",
+          },
+          "100%": {
+            transform: "tranlate(0px, 0px) scale(0.8)",
+          },
+        },
+        blob3: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(30px, 20px) scale(1.1)",
+          },
+          "66%": {
+            transform: "translate(35px, 35px) scale(0.9)",
+          },
+          "100%": {
+            transform: "tranlate(0px, 0px) scale(0.8)",
+          },
+        },
+        blob4: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(-30px, -50px) scale(1.1)",
+          },
+          "66%": {
+            transform: "translate(-20px, 30px) scale(0.9)",
+          },
+          "100%": {
+            transform: "tranlate(0px, 0px) scale(1)",
+          },
+        },
       },
     },
   },

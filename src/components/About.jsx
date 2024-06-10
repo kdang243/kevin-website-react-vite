@@ -9,7 +9,7 @@ const About = () => {
     <div className="pb-12 relative flex flex-col min-h-min items-center text-left xl:flex-row bg-forest -mt-12" id="about">
         <AboutDescript></AboutDescript>
         
-        <div className="min-w-max mr-20 mt-6">
+        <div className="min-w-max mr-20 mt-6 mb-6">
             <img className="border-2 border-opacity-0 border-customwhite hover:border-opacity-100 rounded-xl mr-2.5" width="280" height="230" src={imgOneLink} alt=""></img>
         </div>
     </div>

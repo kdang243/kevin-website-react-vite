@@ -3,6 +3,7 @@ import Navbar from './components/NavBar'
 import Dropdown from './components/Dropdown'
 import Hero from './components/Hero'
 import About from './components/About'
+import Experience from './components/Experience'
 
 const App = () => {
   const [dropDownOpen, setdropDownOpen] = useState(false)
@@ -30,6 +31,7 @@ const App = () => {
       <Dropdown toggle={toggle} dropDownOpen={dropDownOpen}></Dropdown>
       <Hero></Hero>
       <About></About>
+      <Experience></Experience>
     </>
     
   )

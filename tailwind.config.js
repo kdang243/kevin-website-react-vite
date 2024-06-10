@@ -11,8 +11,6 @@ export default {
       },
       colors: {
         forest: "#2E8B57",
-        green: "#81A263",
-        clay: "#B7B597",
         blob1: "#69B68B",
         blob2: "#69B68B",
         blob3: "#69B68B",

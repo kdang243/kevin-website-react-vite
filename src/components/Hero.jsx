@@ -17,13 +17,6 @@ const Hero = () => {
                 <br />
                 <a className="text-3xl animate-slideIn8" href="">BSc in Computer Science (UBC)</a>
             </div>
-            
-
-            {/* <div className='font-sans font-semi-bold text-black text-3xl'>
-                    <a className="p-5  hover:underline animate-slideIn1" href="">
-                    
-                    </a>
-                </div> */}
 
         </div>
     </div>

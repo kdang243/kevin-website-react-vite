@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Navbar from './components/NavBar'
 import Dropdown from './components/Dropdown'
 import Hero from './components/Hero'
+import About from './components/About'
 
 const App = () => {
   const [dropDownOpen, setdropDownOpen] = useState(false)
@@ -25,9 +26,10 @@ const App = () => {
   
   return (
     <>
-      <Navbar toggle={toggle}></Navbar>
+      <Navbar toggle={toggle} dropDownOpen={dropDownOpen}></Navbar>
       <Dropdown toggle={toggle} dropDownOpen={dropDownOpen}></Dropdown>
       <Hero></Hero>
+      <About></About>
     </>
     
   )

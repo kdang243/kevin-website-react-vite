@@ -25,7 +25,7 @@ const NavBar = ({ toggle, dropDownOpen }) => {
         </svg>
       </div>
 
-      <div className='font-sans font-bold text-black md:block hidden p-2 pr-2 '>
+      <div className='font-sans font-bold text-white md:block hidden p-2 pr-2 '>
         <a className='p-10 hover:underline animate-slideIn2' href="#about">
           About
         </a>

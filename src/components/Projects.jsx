@@ -1,0 +1,9 @@
+const Projects = () => {
+  return (
+    <div className="pb-12 relative flex flex-col min-h-min  text-left bg-white -mt-12" id="projects">
+        <div className="text-3xl font-bold mt-6 md:mt-10 mb-4 mx-4 ml-32 mr-16 text-left underline">Projects</div>
+    </div>
+  )
+}
+
+export default Projects

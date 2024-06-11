@@ -10,11 +10,13 @@ export default {
         "70/30": "70% 28%",
       },
       colors: {
-        forest: "#2E8B57",
-        blob1: "#69B68B",
-        blob2: "#69B68B",
-        blob3: "#69B68B",
-        blob4: "#69B68B",
+        // forest: "#2E8B57",
+        forest: "#028391",
+        blob1: "#028391",
+        blob2: "#028391",
+        blob3: "#028391",
+        blob4: "#028391",
+        lettering: "#445069",
       },
       animation: {
         slideIn1: "slideIn 1s ease-in-out forwards 0.1s",

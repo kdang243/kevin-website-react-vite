@@ -4,6 +4,7 @@ import Dropdown from './components/Dropdown'
 import Hero from './components/Hero'
 import About from './components/About'
 import Experience from './components/Experience'
+import Projects from './components/Projects'
 
 const App = () => {
   const [dropDownOpen, setdropDownOpen] = useState(false)
@@ -32,6 +33,7 @@ const App = () => {
       <Hero></Hero>
       <About></About>
       <Experience></Experience>
+      <Projects></Projects>
     </>
     
   )

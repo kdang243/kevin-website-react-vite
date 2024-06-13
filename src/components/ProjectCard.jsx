@@ -1,37 +1,41 @@
-/* eslint-disable react/prop-types */
 import StackTag from "./StackTag"
-import CompanyWebsiteButton from "./CompanyWebsiteButton"
+import GitHubButton from "./GithubButton"
+import PlayButton from "./PlayButton"
 
-
-const ExperienceCard = ( {experience} ) => {
+/* eslint-disable react/prop-types */
+const ProjectCard = ({project}) => {
   return (
     <div className="relative mx-9 my-4 rounded-2xl flex flex-row bg-forest min-h-full bg-auto">
     <img
       className="hidden rounded-l-2xl lg:block mr-2 w-96"
       width="250"
-      src={experience.imageLink}
+      src={project.imageLink}
       alt=""
-      onClick={experience.github}
+      onClick={project.github}
     ></img>
     <div>
       <div className="font-semibold text-white px-5 lg:mr-3 text-2xl mt-4 pb-1 lg:pt-2 underline">
-        {experience.title}
-      </div>
-      <div className="font-semibold text-white px-5 lg:mr-3 max-w-2xl mb-2 mt-2">
-        {experience.date}
+        {project.title}
       </div>
       <div className="font-medium text-white  px-5 lg:mr-3 max-w-2xl">
-        {experience.description}
+        {project.description}
       </div>
       <div className="mt-4 ml-4">
-        {(experience.stack).map((technology) => (
+        {(project.stack).map((technology) => (
           <StackTag key={technology} tagText={technology}></StackTag>
+        
         ))}
       </div>
-      <CompanyWebsiteButton link={experience.github}></CompanyWebsiteButton>
+      <div>
+        <GitHubButton link={project.github}></GitHubButton>
+      </div>
+      <div>
+        {project.title == "Castle and Conquere" ? <PlayButton gameLink={project.gameLink}></PlayButton> : ''}
+      </div>
+      
     </div>
   </div>
   )
 }
 
-export default ExperienceCard
+export default ProjectCard

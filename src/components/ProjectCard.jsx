@@ -30,7 +30,7 @@ const ProjectCard = ({project}) => {
         <GitHubButton link={project.github}></GitHubButton>
       </div>
       <div>
-        {project.title == "Castle and Conquere" ? <PlayButton gameLink={project.gameLink}></PlayButton> : ''}
+        {project.title == "Castle and Conquer" ? <PlayButton gameLink={project.gameLink}></PlayButton> : ''}
       </div>
       
     </div>

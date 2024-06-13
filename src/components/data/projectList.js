@@ -1,6 +1,6 @@
 const projectList = [
   {
-    title: "Castle and Conquere",
+    title: "Castle and Conquer",
     description:
       "A multiplayer chess app I developed with some friends, using the MERN stack + Socket.io for real-time communication which includes gameplay as well as timekeeping.",
     imageLink:
@@ -36,12 +36,8 @@ const projectList = [
     description:
       "You are looking right at it! Classic React and Tailwind website that is simple to maintain and update as I attempt more projects! Automatically deployed using Github Action",
     imageLink:
-      "https://i.ibb.co/CWqXHDC/Screen-Shot-2024-06-13-at-5-51-25-PM.png",
-    stack: [
-      "React.js",
-      "TailwindCSS",
-      "Github Actions",
-    ],
+      "https://i.ibb.co/GPx34fW/Screen-Shot-2024-06-13-at-7-31-16-PM.png",
+    stack: ["React.js", "TailwindCSS", "Github Actions"],
     github: "https://github.com/kdang243/kevin-website",
   },
 ];

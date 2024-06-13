@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard"
 const Projects = () => {
   return (
     <div className="pb-12 relative flex flex-col min-h-min  text-left bg-white -mt-12" id="projects">
-        <div className="text-3xl font-bold mt-6 md:mt-10 mb-4 mx-4 ml-32 mr-16 text-left underline">Projects</div>
+        <div className="text-3xl font-bold mt-6 md:mt-10 mb-4 mx-4 ml-32 mr-16 text-left underline">My Latest Projects</div>
     
         <div className="pl-16 ml-6">
             {projectList.map((project) => (

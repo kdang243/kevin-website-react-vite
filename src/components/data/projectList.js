@@ -2,7 +2,7 @@ const projectList = [
   {
     title: "Castle and Conquere",
     description:
-      "A multiplayer chess app I developed with some classmates, using the MERN stack + Socket.io for real-time communication. Currently developing a new version with my own take on the frontend.",
+      "A multiplayer chess app I developed with some friends, using the MERN stack + Socket.io for real-time communication which includes gameplay as well as timekeeping.",
     imageLink:
       "https://i.ibb.co/LPrCBW8/Screen-Shot-2024-06-13-at-4-20-02-PM.png",
     stack: [
@@ -17,13 +17,32 @@ const projectList = [
     github: "https://github.com/VexMihir/chessApp",
   },
   {
-    title: "wallstarr.github.io - This portfolio website!",
+    title: "Marauder Map",
     description:
-      "You're on it right now! Super simple to maintain for adding/removing projects and fully responsive. I utilized React.js to create reuseable components and TailwindCSS for styling. Automatically deployed using GitHub Actions",
+      "A google maps extension that allows users to click into buildings on UBC campus for a view on the indoors map. Utilized MappedIn and MapBox, this extension allows for way finding inside buildings, with options for wheelchair accessible routes.",
     imageLink:
-      "https://i.ibb.co/4tb3S9k/Screen-Shot-2021-05-26-at-21-22-05.png",
-    stack: ["React.js", "TailwindCSS", "Github Actions"],
-    github: "https://github.com/wallstarr/wallstarr.github.io",
+      "https://i.ibb.co/S54bzpG/Screen-Shot-2024-06-07-at-5-25-18-PM.png",
+    stack: [
+      "React.js",
+      "TailwindCSS",
+      "MapBox API",
+      "MappedIn SDK",
+      "Google Maps API",
+    ],
+    github: "https://github.com/wallstarr/nwhacks2024",
+  },
+  {
+    title: "This Website!",
+    description:
+      "You are looking right at it! Classic React and Tailwind website that is simple to maintain and update as I attempt more projects! Automatically deployed using Github Action",
+    imageLink:
+      "https://i.ibb.co/CWqXHDC/Screen-Shot-2024-06-13-at-5-51-25-PM.png",
+    stack: [
+      "React.js",
+      "TailwindCSS",
+      "Github Actions",
+    ],
+    github: "https://github.com/kdang243/kevin-website",
   },
 ];
 

@@ -3,7 +3,7 @@
 const NavBar = ({ toggle, dropDownOpen }) => {
 
   return (
-    <nav className="relative py-3 bg-forest border-b border-white align-middle flex justify-center" >
+    <nav className="relative py-3 bg-forest border-b border-vanilla align-middle flex justify-center" >
 
       <div className="cursor-pointer md:hidden pr-6" onClick={toggle}>
         <svg
@@ -12,7 +12,7 @@ const NavBar = ({ toggle, dropDownOpen }) => {
          
           fill="none"
           viewBox="0 0 24 24"
-          stroke="currentColor"
+          stroke="white"
         >
           <path
             strokeLinecap="round"

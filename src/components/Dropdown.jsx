@@ -3,7 +3,7 @@ const Dropdown = ( {dropDownOpen, toggle}) => {
   const textClass = 'p-3 hover:underline'
 
   return (
-    <div className={dropDownOpen ? "grid grid-rows-4 text-center justify-center items-center font-sans font-bold bg-white text-black" : "hidden"}
+    <div className={dropDownOpen ? "grid grid-rows-4 text-center justify-center items-center font-sans font-bold bg-vanilla text-forest" : "hidden"}
           onClick={toggle}>
         <a className= {textClass} href="#about">
           About

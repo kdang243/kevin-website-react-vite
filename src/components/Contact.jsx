@@ -6,7 +6,7 @@ const Contact = () => {
         Let's talk more!
       </div>
       <div className="text-2xl px-5 md:px-12 text-center mb-4">
-        I'd love to here from you, shoot me an email at kevindang243@gmail.com!
+        I'd love to hear from you, shoot me an email at kevindang243@gmail.com!
       </div>
 
       <a className="flex  underline flex-row bg-gradient-to-r from-customblue to-gray-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out" href="mailto:kevindang243@gmail.com" rel="noopener noreferrer" target="_blank">

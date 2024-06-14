@@ -14,7 +14,7 @@ const ExperienceCard = ( {experience} ) => {
       onClick={experience.github}
     ></img>
     <div>
-      <div className="font-semibold text-white px-5 lg:mr-3 text-2xl mt-4 pb-1 lg:pt-2 underline">
+      <div className="font-semibold text-white px-5 lg:mr-3 text-2xl mt-3 pb-1 lg:pt-2 underline" href={experience.github}>
         {experience.title}
       </div>
       <div className="font-semibold text-white px-5 lg:mr-3 max-w-2xl mb-2 mt-2">

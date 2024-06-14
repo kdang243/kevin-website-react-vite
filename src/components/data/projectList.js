@@ -34,7 +34,7 @@ const projectList = [
   {
     title: "This Website!",
     description:
-      "You are looking right at it! Classic React and Tailwind website that is simple to maintain and update as I attempt more projects! Automatically deployed using Github Action",
+      "You are looking right at it! Classic React and Tailwind website that is simple to maintain and update as I attempt more projects! Automatically deployed using Render.",
     imageLink:
       "https://i.ibb.co/GPx34fW/Screen-Shot-2024-06-13-at-7-31-16-PM.png",
     stack: ["React.js", "TailwindCSS", "Github Actions"],

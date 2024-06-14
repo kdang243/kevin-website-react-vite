@@ -11,7 +11,7 @@ const Experience = () => {
         <div className="absolute                   z-0 w-96 h-96 bg-blob4 rounded-full mix-blend-multiply filter opacity-70 animate-blob4 animation-delay-6000 blur-lg"></div>
         <div className="absolute          left-0.5  z-0 w-96 h-96 bg-blob4 rounded-full mix-blend-multiply filter opacity-70 animate-blob4 animation-delay-6000 blur-lg"></div> */}
        
-        <div className="text-3xl font-bold mt-6 md:mt-10 mb-4 mx-4 ml-32 mr-16 text-left underline z-10 text-forest">Experience</div>
+        <div className="text-3xl font-bold mt-6 md:mt-10 mb-4 mx-4 ml-32 mr-16 text-left underline z-10 text-lettering">Experience</div>
         
         <div className="pl-16 ml-6">
             {experience_list.map((experience) => (

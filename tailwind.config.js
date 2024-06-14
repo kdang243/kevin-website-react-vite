@@ -18,7 +18,7 @@ export default {
         blob2: "#44624a",
         blob3: "#44624a",
         blob4: "#44624a",
-        lettering: "#445069",
+        lettering: "#38513D",
         letter: "",
       },
       animation: {

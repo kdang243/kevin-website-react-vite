@@ -7,7 +7,7 @@ const experience_list = [
     imageLink:
       "https://i.ibb.co/BjQHm0X/Screen-Shot-2024-06-11-at-6-31-21-PM.png",
     stack: ["Vue.js", "Python", "AWS", "GraphQL", "Grafana", "nginx"],
-    github: "https://www.bio-conversion.org/",
+    github: "https://www.linkedin.com/company/bio-conversion/",
   },
   {
     title: "Frontend Developer Internship",
@@ -17,7 +17,7 @@ const experience_list = [
     imageLink:
       "https://i.ibb.co/990727M/Screen-Shot-2024-06-11-at-5-57-45-PM.png",
     stack: ["Vue.js", "RESTful APIs", "Javascript"],
-    github: "http://buca.vn/",
+    github: "https://www.linkedin.com/company/buca-jsc/",
   },
 ];
 

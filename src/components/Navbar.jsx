@@ -1,8 +1,6 @@
 // import { Link } from 'react-router-dom'
-
 // eslint-disable-next-line react/prop-types
 const NavBar = ({ toggle, dropDownOpen }) => {
-  // const navText = 'p-5 hover:underline'
 
   return (
     <nav className="relative py-3 bg-forest border-b border-white align-middle flex justify-center" >
@@ -11,7 +9,7 @@ const NavBar = ({ toggle, dropDownOpen }) => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className={dropDownOpen ? "h-6 w-6" : "h-6 w-6 transform rotate-180" }
-          // className="h-6 w-6 transform rotate-180"
+         
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

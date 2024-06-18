@@ -1,8 +1,8 @@
-# React + Vite
+# My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A classic static website made using React.js, TailwindCSS and Vite. Currently deployed using Render.
 
-Currently, two official plugins are available:
+Check it out! ->>> https://kevin-portfolio-kta0.onrender.com/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sources:
+- Dynamic background using Tailwind with this technique: https://www.youtube.com/watch?v=Tmkr2kKUEgU&t=127s

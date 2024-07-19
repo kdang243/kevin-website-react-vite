@@ -11,7 +11,7 @@ const experience_list = [
   },
   {
     title: "Frontend Developer Internship",
-    date: "BUCA JSC | May 2020 - April 2022 | Hanoi, Vietnam",
+    date: "BUCA JSC | May 2020 - August 2020 | Hanoi, Vietnam",
     description:
       "Developed frontend components for ERP software systems. Aimed to support automation in finance and human resources processes for schools in Vietnam.",
     imageLink:

@@ -1,5 +1,19 @@
 const projectList = [
   {
+    title: "SQL Gym Database",
+    description:
+      "A database made using Java and Oracle JDBC to keep track of a single gym's relational components. Allows for queries using Insert, Update and Delete as well as aggregate queries.",
+    imageLink:
+      "https://i.ibb.co/QfPDdxn/sql.png",
+    stack: [
+      "Java",
+      "SQL",
+      "Oracle JDBC",
+      "Java Swing"
+    ],
+    github: "https://github.com/kdang243/Gym-SQL-Database",
+  },
+  {
     title: "Castle and Conquer",
     description:
       "A multiplayer chess app I developed with some friends, using the MERN stack + Socket.io for real-time communication which includes gameplay as well as timekeeping.",

@@ -36,7 +36,7 @@ const NavBar = ({ toggle, dropDownOpen }) => {
         <a className='p-10 hover:underline animate-slideIn5' href="#contact">
           Contact
         </a>
-        <a className='p-10 hover:underline animate-slideIn6' href="https://drive.google.com/file/d/1CDJtD0eAkBbWnSNwYglKQGETEvQwbQC2/view?usp=sharing" target="_blank" rel="noreferrer">
+        <a className='p-10 hover:underline animate-slideIn6' href="https://drive.google.com/file/d/1Sp4hmPFPj46nrqW6b6mKdM8PslUtyZ9S/view?usp=sharing" target="_blank" rel="noreferrer">
           Resume
         </a>
       </div>

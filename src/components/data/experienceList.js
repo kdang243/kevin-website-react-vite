@@ -16,7 +16,7 @@ const experience_list = [
       "Developed frontend components for ERP software systems. Aimed to support automation in finance and human resources processes for schools in Vietnam.",
     imageLink:
       "https://i.ibb.co/990727M/Screen-Shot-2024-06-11-at-5-57-45-PM.png",
-    stack: ["Vue.js", "RESTful APIs", "Javascript"],
+    stack: ["React.js", "RESTful APIs", "Javascript"],
     github: "https://www.linkedin.com/company/buca-jsc/",
   },
 ];
